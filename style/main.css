@@ -36,9 +36,10 @@
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+    border: 0;
     padding: 18px 35px;
     height: 64px;
-    background: #FD6E0A;
+    background: #DC02CE;
     border-radius: 10px;
     margin-bottom: 200px;
 
@@ -71,6 +72,7 @@ main {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    margin-bottom: 24px;
 
 }
 
@@ -85,7 +87,7 @@ main {
     color: #16D887;
 }
 
-/* Plan Style */
+/* my Plan Style */
 .my-plans {
     max-width: 1150px;
     margin: 0 auto;
@@ -104,6 +106,64 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+.sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: #737272;
+}
+
+.sub-plan img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+}
+
+/* my Project style */
+.my-project {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.project-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-project-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.project-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: #737272;
+}
+
+.sub-project img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
 
 /* call style */
 .linear-containner {
@@ -148,7 +208,7 @@ main {
     margin-bottom: 20px;
 }
 
-.footer-description{
+.footer-description {
     margin-right: 300px;
     color: #FFFFFF;
 }
@@ -156,16 +216,18 @@ main {
 .subscribe-footer h2 {
     color: #FFFFFF;
 }
-.Social-icon .fa-brands{
+
+.Social-icon .fa-brands {
     color: #FFFFFF;
     margin-top: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
-.subscribe-title{
+.subscribe-title {
     margin-bottom: 20px;
 }
-.footer-container input{
+
+.footer-container input {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
