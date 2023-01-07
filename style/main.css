@@ -27,7 +27,7 @@
 
 .banner-description {
     color: #444343;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
     margin-left: 920px;
 }
@@ -39,7 +39,7 @@
     border: 0;
     padding: 18px 35px;
     height: 64px;
-    background: #DC02CE;
+    background: #FE8E4F;
     border-radius: 10px;
     margin-bottom: 200px;
 
@@ -58,14 +58,16 @@ main {
     margin: 140px;
 }
 
-.profile-image {
-    padding-right: 50px;
+.about img {
+    border-radius: 50%;
+    background-color: #BCC0C1;
+    margin-right: 30px;
 }
 
 .about-title {
     text-align: left;
-    margin-top: 130px;
-    padding-left: 30px;
+    margin-top: 80px;
+    padding-left: 50px;
 }
 
 .section-title {
@@ -233,4 +235,5 @@ main {
     width: 100%;
     padding: 18px 30px;
     font-size: 16px;
+    border-radius: 10px;
 }
